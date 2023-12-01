@@ -137,7 +137,7 @@ nav a {
 
 #presentation {
     position: absolute;
-    top: 34%;
+    top: 38%;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
@@ -164,11 +164,11 @@ nav a {
     font-family: GothamBold, sans-serif;
 }
 
-/*.header #dev {
-    top: 35%;
+.header #dev {
+    margin-bottom: 5px;
 }
 
 .header #crea {
-    top: 63%;
-}*/
+    margin-top: 20px;
+}
 
