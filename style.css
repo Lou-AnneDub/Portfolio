@@ -137,7 +137,7 @@ nav a {
 
 #presentation {
     position: absolute;
-    top: 37%;
+    top: 36%;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
@@ -169,6 +169,6 @@ nav a {
 }
 
 .header #crea {
-    margin-top: 10px;
+    margin-top: 7px;
 }
 
