@@ -132,12 +132,12 @@ nav a {
     border: solid 3px #fff;
     border-radius: 190px;
     width: 227px;
-    height: 366px;
+    height: 367px;
 }
 
 #presentation {
     position: absolute;
-    top: 38%;
+    top: 37%;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
@@ -169,6 +169,6 @@ nav a {
 }
 
 .header #crea {
-    margin-top: 20px;
+    margin-top: 15px;
 }
 
