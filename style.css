@@ -1,0 +1,163 @@
+@font-face {
+    font-family: 'GothamBook';
+    src: url('fonts/GothamBook.woff2') format('woff2'),
+        url('fonts/GothamBook.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GothamBold';
+    src: url('fonts/GothamBold.woff2') format('woff2'),
+        url('fonts/GothamBold.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    background-color: #000000;
+    color: #fff;
+    font-family: GothamBook, sans-serif;
+}
+
+/* Nav */ 
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 5%;
+}
+
+nav ul {
+    list-style: none;
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 27px;
+    width: 60%;
+    background-color: #333;
+    padding: 10px;
+    height: 90vh;
+    z-index: 1;
+    margin-right: -5%;
+}
+
+nav ul.show {
+    display: flex;
+    justify-content: center;
+}
+
+/*
+    list-style: none;
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 15px;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 10px;
+*/
+
+nav li {
+    padding: 5px;
+    margin-left: 25px;
+    margin-bottom: 15%;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.burger-menu {
+    margin-top: 8px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.burger-menu span {
+    display: block;
+    width: 30px;
+    height: 4px;
+    background-color: #FFF;
+    margin: 5px 0;
+    border-radius: 3px;
+}
+
+#logo {
+    display: none;
+}
+
+    /* Affichage écran + grand que 650px pour la nav */ 
+    @media (min-width: 650px) {
+        nav {
+            margin-left: 5%;
+            justify-content: space-between;
+        }
+
+        nav li {
+            margin-right: 10px 0;
+        }
+
+        #logo {
+            display: block;
+        }
+    }
+
+
+/* Header */
+
+.header {
+    display: flex;
+    flex-direction: column;
+    height:95vh;
+    border-bottom: 2px solid #fff;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+    @media (min-width: 650px) {
+        .header {
+            border-top: 2px solid #fff;
+        }
+    }
+
+
+#forme {
+    margin: auto;
+    border: solid 3px #fff;
+    border-radius: 190px;
+    width: 227px;
+    height: 366px;
+}
+
+.header h1 {
+    font-family: 'Bagel Fat One', sans-serif;
+    font-size: 4rem;
+    line-height: 4rem;
+    background-color: #000000;
+    padding: 7px;
+    width: 20rem;
+    position: absolute;
+    top: 33%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.header h2 {
+    position: absolute;
+    font-family: GothamBold, sans-serif;
+}
+
+.header #dev {
+    top: 35%;
+}
+
+.header #crea {
+    top: 63%;
+}
+
