@@ -135,6 +135,16 @@ nav a {
     height: 366px;
 }
 
+#presentation {
+    position: absolute;
+    top: 34%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .header h1 {
     font-family: 'Bagel Fat One', sans-serif;
     font-size: 4rem;
@@ -142,22 +152,23 @@ nav a {
     background-color: #000000;
     padding: 7px;
     width: 20rem;
-    position: absolute;
+    margin: 5px;
+    /*position: absolute;
     top: 33%;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translateX(-50%);*/
 }
 
 .header h2 {
-    position: absolute;
+    margin: 0;
     font-family: GothamBold, sans-serif;
 }
 
-.header #dev {
+/*.header #dev {
     top: 35%;
 }
 
 .header #crea {
     top: 63%;
-}
+}*/
 
