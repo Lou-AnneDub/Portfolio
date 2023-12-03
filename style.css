@@ -38,7 +38,7 @@ nav ul {
     width: 60%;
     background-color: #333;
     padding: 10px;
-    height: 90vh;
+    height: 85 vh;
     z-index: 1;
     margin-right: -5%;
 }
@@ -137,7 +137,7 @@ nav a {
 
 #presentation {
     position: absolute;
-    top: 30%;
+    top: 29%;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
