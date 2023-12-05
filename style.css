@@ -168,6 +168,10 @@ main {
     width: 80vw;
 }
 
+main p {
+    margin: 0;
+}
+
 main a {
     font-family: 'Permanent Marker', sans-serif;
     color: #fff;
@@ -227,4 +231,32 @@ main li {
 .softSkills img {
     width: 40%;
     min-width: 120px;
+}
+
+    /* Projets */ 
+.projets img {
+    width: 30%;
+    float: left;
+}
+
+.projets h2 {
+    padding: 30px;
+}
+
+
+    /* Footer */
+footer {
+    background-color: #FFFCF6;
+    color: #000000;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+footer h2 {
+    margin-bottom: 4px;
+}
+
+footer p {
+    margin: 0;
 }
