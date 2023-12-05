@@ -165,7 +165,6 @@ nav a {
     /* Main */
 main {
     margin: auto;
-    margin-bottom: 25px;
     width: 80vw;
 }
 
@@ -235,6 +234,10 @@ main li {
 }
 
     /* Projets */ 
+.projets {
+    margin-bottom: 25px;
+}
+
 .projets img {
     width: 30%;
     float: left;
@@ -254,10 +257,15 @@ footer {
     padding-right: 20px;
 }
 
+footer a {
+    color: #000;
+}
+
 footer h2 {
     margin-bottom: 4px;
 }
 
-footer p {
+footer ul {
     margin: 0;
+    list-style: none;
 }
