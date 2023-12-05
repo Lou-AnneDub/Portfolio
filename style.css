@@ -165,6 +165,7 @@ nav a {
     /* Main */
 main {
     margin: auto;
+    margin-bottom: 25px;
     width: 80vw;
 }
 
