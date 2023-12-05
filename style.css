@@ -2,7 +2,8 @@
     font-family: 'GothamBook';
     src: url('fonts/GothamBook.woff2') format('woff2'),
         url('fonts/GothamBook.woff') format('woff'),
-        url('fonts/GothamBook.ttf') format('truetype');
+        url('fonts/GothamBook.otf') format('opentype'),
+        url('fonts/GothamBook.ttf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
@@ -11,7 +12,8 @@
     font-family: 'GothamBold';
     src: url('fonts/GothamBold.woff2') format('woff2'),
         url('fonts/GothamBold.woff') format('woff'),
-        url('fonts/GothamBold.ttf') format('truetype');
+        url('fonts/GothamBold.otf') format('opentype'),
+        url('fonts/GothamBold.ttf') format('opentype');
     font-weight: 900;
     font-style: normal;
 }
@@ -20,7 +22,7 @@ body {
     margin: 0;
     background-color: #000000;
     color: #ffffff !important;
-    font-family: GothamBook, Arial, sans-serif !important;
+    font-family: GothamBook-apple-system, Arial, sans-serif;
 }
 
 /* Nav */ 
