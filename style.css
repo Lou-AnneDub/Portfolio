@@ -17,7 +17,7 @@
 body {
     margin: 0;
     background-color: #000000;
-    color: #fff !important;
+    color: #ffffff !important;
     font-family: GothamBook, Arial, sans-serif !important;
 }
 
@@ -55,7 +55,7 @@ nav li {
 }
 
 nav a {
-    color: #fff;
+    color: #ffffff;
     text-decoration: none;
 }
 
@@ -69,7 +69,7 @@ nav a {
     display: block;
     width: 30px;
     height: 4px;
-    background-color: #FFF;
+    background-color: #ffffff;
     margin: 5px 0;
     border-radius: 3px;
 }
@@ -101,7 +101,7 @@ nav a {
     display: flex;
     flex-direction: column;
     height:90vh;
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid #ffffff;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -111,14 +111,14 @@ nav a {
      /* Header affichage écran + grand que 650px */ 
     @media (min-width: 650px) {
         .header {
-            border-top: 2px solid #fff;
+            border-top: 2px solid #ffffff;
         }
     }
 
 
 #forme {
     margin: auto;
-    border: solid 3px #fff;
+    border: solid 3px #ffffff;
     border-radius: 190px;
     width: 227px;
     height: 367px;
@@ -174,7 +174,7 @@ main p {
 
 main a {
     font-family: 'Permanent Marker', sans-serif;
-    color: #fff;
+    color: #ffffff;
     text-decoration: none;
 }
 
