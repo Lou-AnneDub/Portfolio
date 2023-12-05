@@ -180,20 +180,26 @@ main h2 {
 }
 
 main h3 {
-    margin: 5px;
+    margin-bottom: 7px;
 }
 
 main ul {
     margin: 5px;
 }
 
+main li {
+    margin-bottom: 5px;
+}
+
     /* Skills */
 .devSkills, .graphSkills, .audioSkills, .softSkills {
     display: flex;
     align-items: center;
+    gap: 5px;
 }
 
 .devSkills img {
+    order: 2;
     width: 70%;
     min-width: 140px;
     height: 70%;
@@ -206,6 +212,7 @@ main ul {
 }
 
 .audioSkills img {
+    order: 2;
     width: 40%;
     min-width: 120px;
 }
