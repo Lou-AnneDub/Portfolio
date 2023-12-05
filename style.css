@@ -191,7 +191,14 @@ main li {
     margin-bottom: 5px;
 }
 
+
+
+
     /* Skills */
+.skills {
+    margin-top: 50px;
+}
+
 .devSkills, .graphSkills, .audioSkills, .softSkills {
     display: flex;
     align-items: center;
