@@ -48,18 +48,6 @@ nav ul.show {
     justify-content: center;
 }
 
-/*
-    list-style: none;
-    display: none;
-    flex-direction: column;
-    position: absolute;
-    top: 15px;
-    left: 0;
-    width: 100%;
-    background-color: #333;
-    padding: 10px;
-*/
-
 nav li {
     padding: 5px;
     margin-left: 25px;
@@ -90,7 +78,7 @@ nav a {
     display: none;
 }
 
-    /* Affichage écran + grand que 650px pour la nav */ 
+    /* Nav affichage écran + grand que 650px */ 
     @media (min-width: 650px) {
         nav {
             margin-left: 5%;
@@ -120,6 +108,7 @@ nav a {
     position: relative;
 }
 
+     /* Header affichage écran + grand que 650px */ 
     @media (min-width: 650px) {
         .header {
             border-top: 2px solid #fff;
@@ -173,3 +162,19 @@ nav a {
     margin-bottom: 25px;
 }
 
+    /* Main */
+main {
+    margin: auto;
+    width: 80vw;
+}
+
+main a {
+    font-family: 'Permanent Marker', sans-serif;
+    color: #fff;
+    text-decoration: none;
+}
+
+main h2 {
+    font-family: GothamBold, sans-serif;;
+
+}
