@@ -252,7 +252,8 @@ main li {
 footer {
     background-color: #FFFCF6;
     color: #000000;
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 15px;
     padding-left: 20px;
     padding-right: 20px;
 }
@@ -263,6 +264,7 @@ footer a {
 
 footer h2 {
     margin-bottom: 4px;
+    font-size: 1.2rem;
 }
 
 footer ul {
