@@ -179,6 +179,38 @@ main h2 {
     text-align: center;
 }
 
-main li {
-    margin-bottom: 5px;
+main h3 {
+    margin: 5px;
+}
+
+main ul {
+    margin: 5px;
+}
+
+    /* Skills */
+.devSkills, .graphSkills, .audioSkills, .softSkills {
+    display: flex;
+    align-items: center;
+}
+
+.devSkills img {
+    width: 70%;
+    min-width: 140px;
+    height: 70%;
+    transform: rotate(-45deg);
+}
+
+.graphSkills img {
+    width: 50%;
+    min-width: 130px;
+}
+
+.audioSkills img {
+    width: 40%;
+    min-width: 120px;
+}
+
+.softSkills img {
+    width: 40%;
+    min-width: 120px;
 }
