@@ -176,5 +176,9 @@ main a {
 
 main h2 {
     font-family: GothamBold, sans-serif;;
+    text-align: center;
+}
 
+main li {
+    margin-bottom: 5px;
 }
