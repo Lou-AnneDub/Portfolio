@@ -25,7 +25,7 @@ body {
     font-family: GothamBook-apple-system, Arial, sans-serif;
 }
 
-/* Nav */ 
+    /* Nav */ 
 nav {
     display: flex;
     align-items: center;
@@ -80,6 +80,8 @@ nav a {
 
 #logo {
     display: none;
+    font-family: 'Bagel Fat One', sans-serif;
+    font-size: 1.4rem;
 }
 
     /* Nav affichage écran + grand que 650px */ 
@@ -99,7 +101,7 @@ nav a {
     }
 
 
-/* Header */
+    /* Header */
 
 .header {
     display: flex;
@@ -108,17 +110,8 @@ nav a {
     border-bottom: 2px solid #ffffff;
     justify-content: center;
     align-items: center;
-    text-align: center;
     position: relative;
 }
-
-     /* Header affichage écran + grand que 650px */ 
-    @media (min-width: 650px) {
-        .header {
-            border-top: 2px solid #ffffff;
-        }
-    }
-
 
 #forme {
     margin: auto;
@@ -136,6 +129,7 @@ nav a {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-align: center;
 }
 
 .header h1 {
@@ -161,10 +155,56 @@ nav a {
     margin-top: 7px;
 }
 
-.header img {
+.scroll {
     width: 20px;
     margin-bottom: 25px;
 }
+
+.iconOrdi {
+    display: none;
+}
+
+     /* Header affichage écran + grand que 650px */ 
+     @media (min-width: 650px) {
+        .header {
+            border-top: 2px solid #ffffff;
+        }
+
+        #forme {
+            width: 270px;
+            height: 400px;
+        }
+
+        #presentation {
+            top: 33%;
+        }
+
+        .header h1 {
+            width: 100%;
+        }
+
+        .iconOrdi {
+            display: block;
+            position: absolute;
+            width: 140px;
+        }
+
+        .gauche {
+            left: 5%;
+        }
+
+        .droite {
+            right: 5%;
+        }
+
+        .haut {
+            top: 10px;
+        }
+
+        .bas {
+            bottom: 10px; 
+        }
+    }
 
     /* Main */
 main {
