@@ -21,9 +21,10 @@
 body {
     margin: 0;
     background-color: #000000;
-    color: #ffffff !important;
+    color: #ffffff;
     font-family: GothamBook-apple-system, Arial, sans-serif;
 }
+
 
     /* Nav */ 
 nav {
@@ -90,13 +91,36 @@ nav a {
             margin-left: 5%;
             justify-content: space-between;
         }
-
-        nav li {
-            margin-right: 10px 0;
-        }
-
+        
         #logo {
             display: block;
+            font-size: 1.7rem;
+        }
+
+        .burger-menu {
+            display: none;
+        }
+
+        nav ul {
+            background-color: #000;
+            display: flex;
+            flex-direction: row;
+            position: relative;
+            top: 0;
+            height: -webkit-fit-content;
+            height: -moz-fit-content;
+            height: fit-content;
+            width: -webkit-fit-content;
+            width: -moz-fit-content;
+            width: fit-content;
+            margin-right: 1px;
+
+            font-family: GothamBold-apple-system, sans-serif;
+            font-weight: 700;
+            font-size: 1.2rem;
+        }
+        nav li {
+            margin-bottom: 0;
         }
     }
 
@@ -214,16 +238,19 @@ main {
 
 main p {
     margin: 0;
+    margin-bottom: 7px;
 }
 
 main a {
-    font-family: 'Permanent Marker', sans-serif;
+    font-family: 'Permanent Marker', sans-serif !important;
     color: #ffffff;
     text-decoration: none;
+    margin-top: 20px;
+    
 }
 
 main h2 {
-    font-family: GothamBold-apple-system, sans-serif;;
+    font-family: GothamBold-apple-system, sans-serif;
     text-align: center;
 }
 
@@ -239,6 +266,16 @@ main li {
     margin-bottom: 5px;
 }
 
+
+@media (min-width: 650px) {
+    main {
+        width: 70vw;
+    }
+
+    main h2 {
+        font-size: 2rem;
+    }
+}
 
 
 
@@ -285,8 +322,8 @@ main li {
 
     /* Skills affichage écran + grand que 650px */ 
     @media (min-width: 650px) {
-        .skills {
-
+        .skills h2 {
+            text-align: start;
         }
         
         #skillsFlex {
@@ -329,6 +366,25 @@ main li {
     padding: 30px;
 }
 
+    /* Projets affichage écran + grand que 650px */ 
+    @media (min-width: 650px) {
+        .projets {
+            display: flex;
+            align-items: center;
+            margin-top: 40px;
+        }
+
+        .projets h2 {
+            padding: 0;
+            text-align: start;
+        }
+        
+        .projets img {
+            width: 250px;
+        }
+
+    }
+
 
     /* Footer */
 footer {
@@ -338,6 +394,8 @@ footer {
     padding-bottom: 20px;
     padding-left: 20px;
     padding-right: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 footer a {
@@ -353,3 +411,14 @@ footer ul {
     margin: 0;
     list-style: none;
 }
+
+    /* Footer affichage écran + grand que 650px */ 
+    @media (min-width: 650px) {
+        footer {
+            flex-direction: row;
+            justify-content: center;
+            gap: 15%;
+        }
+           
+
+    }
