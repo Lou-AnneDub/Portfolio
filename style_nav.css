@@ -18,6 +18,13 @@
     font-style: normal;
 }
 
+body {
+    margin: 0;
+    background-color: #000000;
+    color: #ffffff;
+    font-family: GothamBook-apple-system, Arial, sans-serif;
+}
+
     /* Nav */ 
     nav {
         display: flex;
@@ -142,12 +149,12 @@ footer ul {
     list-style: none;
 }
     
-        /* Footer affichage écran + grand que 650px */ 
-        @media (min-width: 650px) {
-            footer {
-                flex-direction: row;
-                justify-content: center;
-                gap: 15%;
-            }
-        
+    /* Footer affichage écran + grand que 650px */ 
+    @media (min-width: 650px) {
+        footer {
+            flex-direction: row;
+            justify-content: center;
+            gap: 15%;
         }
+        
+    }

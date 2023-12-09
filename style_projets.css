@@ -1,0 +1,41 @@
+header {
+    border-bottom: 2px solid #FFF;
+}
+
+main {
+    width: 90%;
+    margin: auto;
+}
+
+.title {
+    width: 60%;
+    margin: auto;
+}
+
+.title h1 {
+    font-family: 'Bagel Fat One', sans-serif;
+    padding-top: 20px;
+}
+
+.title img {
+    width: 40%;
+    float: left;
+}
+
+.mockup {
+    width: 100%;
+}
+
+.preview {
+    display: flex;
+    justify-content: space-between;
+}
+
+.previewImg {
+    width: 32%;
+}
+
+.text {
+    width: 90%;
+    margin: auto;
+}
