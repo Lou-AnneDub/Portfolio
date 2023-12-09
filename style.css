@@ -150,7 +150,7 @@ main li {
         font-size: 2rem;
     }
     section {
-        height: 70vh;
+        height: 50vh;
     }
 
 }
@@ -260,12 +260,4 @@ main li {
             width: 250px;
         }
 
-    }
-
-    #test {
-        font-family: 'Moirai One', sans-serif !important;
-    }
-
-    #test2 {
-        font-family: 'Bagel Fat One', sans-serif !important;
     }
