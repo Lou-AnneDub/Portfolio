@@ -7,6 +7,14 @@ main {
     margin: auto;
 }
 
+#return {
+    color: #FFF;
+    padding: 5px;
+    position: relative;
+    top: 10px;
+    font-family: 'Bagel Fat One', sans-serif;
+}
+
 .title {
     width: 60%;
     margin: auto;
