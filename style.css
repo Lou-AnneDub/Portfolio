@@ -116,7 +116,7 @@ main p {
 }
 
 main a {
-    font-family: 'Permanent Marker', sans-serif !important;
+    font-family: 'Bagel Fat One', sans-serif !important;
     color: #ffffff;
     text-decoration: none;
     margin-top: 20px;
@@ -124,7 +124,7 @@ main a {
 }
 
 main h2 {
-    font-family: GothamBold-apple-system, sans-serif;
+    font-family: 'Bagel Fat One', sans-serif;
     text-align: center;
 }
 
@@ -262,3 +262,10 @@ main li {
 
     }
 
+    #test {
+        font-family: 'Moirai One', sans-serif !important;
+    }
+
+    #test2 {
+        font-family: 'Bagel Fat One', sans-serif !important;
+    }

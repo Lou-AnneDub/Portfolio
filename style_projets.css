@@ -22,6 +22,10 @@ main {
     float: left;
 }
 
+.img {
+    margin-bottom: 40px;
+}
+
 .mockup {
     width: 100%;
 }
@@ -38,4 +42,34 @@ main {
 .text {
     width: 90%;
     margin: auto;
+    margin-bottom: 50px;
+}
+
+.text a {
+    font-family: 'Bagel Fat One', sans-serif;
+    text-decoration: none;
+    color: #FFF;
+    margin-right: 20px;
+}
+
+.list {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.list h2 {
+    font-size: 1.2rem;
+    margin-top: 0;
+}
+
+.list ul {
+    list-style: none;
+    margin-bottom: 7px;
+}
+
+#context {
+    text-align: end;
 }
