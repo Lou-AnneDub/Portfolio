@@ -17,12 +17,16 @@ main {
 
 .title {
     width: 60%;
-    margin: auto;
+    position: absolute;
+    top: 12%;
+    left: 50%;
+    transform: translateX(-40%);
 }
 
 .title h1 {
     font-family: 'Bagel Fat One', sans-serif;
-    padding-top: 20px;
+    font-size: 2rem;
+    margin-top: 10%;
 }
 
 .title img {
@@ -31,6 +35,7 @@ main {
 }
 
 .img {
+    margin-top: 17%;
     margin-bottom: 40px;
 }
 
@@ -80,4 +85,47 @@ main {
 
 #context {
     margin-left: 55%;
+}
+
+@media (min-width: 850px) {
+    main {
+        width: 75%;
+    }
+    
+    .title img {
+        width: 30%;
+    }
+
+    .title h1 {
+        padding-top: 5px;
+    }
+
+    .title {
+        position: relative;
+        left: 22%;
+    }
+
+    .ImgText {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .text {
+        margin-top: 0px;
+    }
+
+    .img {
+        width: 130%;
+        margin-top: 0;
+    }
+
+    .list {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    #context {
+        margin-left: 0;
+    }
 }
