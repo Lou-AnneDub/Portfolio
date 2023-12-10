@@ -19,8 +19,7 @@ main {
     width: 60%;
     position: absolute;
     top: 12%;
-    left: 50%;
-    transform: translateX(-30%);
+    left: 20%;
 }
 
 .title h1 {
