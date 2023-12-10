@@ -20,7 +20,7 @@ main {
     position: absolute;
     top: 12%;
     left: 50%;
-    transform: translateX(-40%);
+    transform: translateX(-30%);
 }
 
 .title h1 {
