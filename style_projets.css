@@ -74,6 +74,7 @@ main {
 
 .list h2 {
     font-size: 1.2rem;
+    padding-left: 10px;
     margin-top: 0;
 }
 
@@ -84,6 +85,12 @@ main {
 
 #context {
     margin-left: 55%;
+}
+
+.title2 img {
+    float: left;
+    width: 40px;
+    transform: rotate(-25deg);
 }
 
 @media (min-width:650px) {
