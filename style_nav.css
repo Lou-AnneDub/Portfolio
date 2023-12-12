@@ -84,8 +84,8 @@ body {
         font-size: 1.4rem;
     }
     
-        /* Nav affichage écran + grand que 650px */ 
-        @media (min-width: 650px) {
+        /* Nav affichage écran + grand que 750px */ 
+        @media (min-width: 750px) {
             nav {
                 margin-left: 5%;
                 justify-content: space-between;

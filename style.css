@@ -74,7 +74,7 @@ body {
         }
 
         #presentation {
-            top: 35%;
+            top: 30%;
         }
 
         .header h1 {
@@ -101,6 +101,12 @@ body {
 
         .bas {
             bottom: 30px; 
+        }
+    }
+
+    @media (min-width: 993px){
+        #presentation {
+            top: 35%;
         }
     }
 
@@ -141,7 +147,7 @@ main li {
 }
 
 
-@media (min-width: 650px) {
+@media (min-width: 750px) {
     main {
         width: 70vw;
     }
@@ -170,12 +176,14 @@ main li {
 .devSkills, .graphSkills, .audioSkills, .softSkills {
     display: flex;
     align-items: center;
+    justify-content: space-around;
     gap: 5px;
 }
 
 .devSkills img {
     order: 2;
     width: 70%;
+    max-width: 210px;
     min-width: 140px;
     height: 70%;
     transform: rotate(-45deg);
@@ -183,22 +191,25 @@ main li {
 
 .graphSkills img {
     width: 50%;
+    max-width: 210px;
     min-width: 130px;
 }
 
 .audioSkills img {
     order: 2;
     width: 40%;
+    max-width: 210px;
     min-width: 120px;
 }
 
 .softSkills img {
     width: 40%;
+    max-width: 210px;
     min-width: 120px;
 }
 
-    /* Skills affichage écran + grand que 650px */ 
-    @media (min-width: 650px) {
+    /* Skills affichage écran + grand que 750px */ 
+    @media (min-width: 750px) {
         .skills h2 {
             text-align: start;
         }
@@ -244,8 +255,8 @@ main li {
     padding: 30px;
 }
 
-    /* Projets affichage écran + grand que 650px */ 
-    @media (min-width: 650px) {
+    /* Projets affichage écran + grand que 750px */ 
+    @media (min-width: 750px) {
         .projets {
             display: flex;
             align-items: center;
