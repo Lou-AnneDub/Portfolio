@@ -244,20 +244,29 @@ main li {
     /* Projets */ 
 .projets {
     margin-bottom: 25px;
+    height: 100vh;
 }
 
-.projets img {
+.title2 {
+    display: flex;
+}
+
+.title2 img {
     width: 30%;
-    float: left;
 }
 
-.projets h2 {
+.title2 h2 {
     padding: 30px;
 }
 
+.slide img {
+    width: 80%;
+}
+
+
     /* Projets affichage écran + grand que 750px */ 
     @media (min-width: 750px) {
-        .projets {
+        /*.projets {
             display: flex;
             align-items: center;
             margin-top: 40px;
@@ -270,6 +279,16 @@ main li {
         
         .projets img {
             width: 250px;
+        }*/
+
+        .title2 img {
+            width: 10%;
         }
 
     }
+
+
+
+
+
+    
