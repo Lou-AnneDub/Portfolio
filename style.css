@@ -253,13 +253,39 @@ main li {
 
 .title2 img {
     width: 30%;
+
 }
 
 .title2 h2 {
-    padding: 30px;
+    padding: 10px;
+    margin: 5px;
+}
+
+/* Slider Projets */
+
+.slider {
+    width: 90%;
+    overflow: hidden;
+    position: relative;
+    margin: auto;
+}
+  
+.slides {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 250vw;
+    transition: transform 0.5s ease-in-out;
+}
+  
+.slide {
+    display: inline-block;
+    width: 30%;
+    margin-right: 0;
 }
 
 .slide img {
+    border-radius: 15px;
     width: 80%;
 }
 
@@ -285,10 +311,29 @@ main li {
             width: 10%;
         }
 
+        /*.slider {
+            width: 60%;
+            overflow: hidden;
+            position: relative;
+            margin: auto;
+        }
+          
+        .slides {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            width: 300vh;
+            transition: transform 0.5s ease-in-out;
+        }
+          
+        .slide {
+            display: inline-block;
+            width: 25%;
+            margin-right: 0;
+        }
+        
+        .slide img {
+            border-radius: 15px;
+            width: 80%;
+        }*/
     }
-
-
-
-
-
-    
