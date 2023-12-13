@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function () {
     // slider 
     const slides = document.querySelector('.slides');
     let translateValue = 0;
-    const slideWidth = 30;
+    const slideWidth = 25;
     const slideCount = document.querySelectorAll('.slide').length;
     const prevBtn = document.querySelector('.prev');
     const nextBtn = document.querySelector('.next');

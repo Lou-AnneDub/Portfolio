@@ -166,6 +166,7 @@ main li {
 .skills {
     margin: auto;
     margin-top: 50px;
+    margin-bottom: 60px;
 }
 
 #skillsFlex {
@@ -264,7 +265,7 @@ main li {
 /* Slider Projets */
 
 .slider {
-    width: 90%;
+    width: 70%;
     overflow: hidden;
     position: relative;
     margin: auto;
@@ -280,7 +281,7 @@ main li {
   
 .slide {
     display: inline-block;
-    width: 30%;
+    width: 25%;
     margin-right: 0;
 }
 
