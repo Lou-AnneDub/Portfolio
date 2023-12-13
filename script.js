@@ -11,7 +11,18 @@ document.addEventListener('DOMContentLoaded', function () {
     // slider 
     const slides = document.querySelector('.slides');
     let translateValue = 0;
-    const slideWidth = 20;
+    let slideWidth = 20;
+
+      //La largeur de l'écran
+      const largeurEcran = window.innerWidth;
+
+      //Modifier la valeur de la variable en fonction de la largeur de l'écran
+      if (largeurEcran < 600) {
+        slideWidth = 20;
+      } else {
+        slideWidth = 10;
+      }
+
     const slideCount = document.querySelectorAll('.slide').length;
     const prevBtn = document.querySelector('.prev');
     const nextBtn = document.querySelector('.next');
