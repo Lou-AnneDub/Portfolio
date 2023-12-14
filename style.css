@@ -211,6 +211,9 @@ main li {
 
     /* Skills affichage écran + grand que 750px */ 
     @media (min-width: 750px) {
+        .skills {
+            height: 65vh;
+        }
         .skills h2 {
             text-align: start;
         }
@@ -253,7 +256,7 @@ main li {
 }
 
 .title2 img {
-    width: 30%;
+    width: 75px;
 
 }
 
@@ -339,13 +342,9 @@ main li {
 
 
     /* Slider affichage écran + grand que 750px */ 
-    @media (min-width: 750px) {
+    @media (min-width: 580px) {
         .projets {
             height: 90vh;
-        }
-
-        .title2 img {
-            width: 10%;
         }
 
         .slider {

@@ -13,9 +13,9 @@
     "Img1": "MaquetteDataviz.png",
     "Img2": "MoodDataviz.png",
     "Img3": "FigmaDataviz.png",
-    "Mockup1": "mockup/MaquetteDatavizMock.png",
-    "Mockup2": "mockup/MoodDatavizMock.png",
-    "Mockup3": "mockup/FigmaDatavizMock.png"
+    "Mockup1": "MaquetteDatavizMock.png",
+    "Mockup2": "MoodDatavizMock.png",
+    "Mockup3": "FigmaDatavizMock.png"
   },
   {
     "Index": 2,
@@ -31,9 +31,9 @@
     "Img1": "MaquetteRefonte.png",
     "Img2": "MoodRefonte.png",
     "Img3": "FigmaRefonte.png",
-    "Mockup1": "mockup/MaquetteRefonteMock.png",
-    "Mockup2": "mockup/MoodRefonteMock.png",
-    "Mockup3": "mockup/FigmaRefonteMock.png"
+    "Mockup1": "MaquetteRefonteMock.png",
+    "Mockup2": "MoodRefonteMock.png",
+    "Mockup3": "FigmaRefonteMock.png"
   },
   {
     "Index": 3,
@@ -49,9 +49,9 @@
     "Img1": "Portrait1.png",
     "Img2": "Portrait2.png",
     "Img3": "Portrait3.png",
-    "Mockup1": "mockup/Portrait1Mock.png",
-    "Mockup2": "mockup/Portrait2Mock.png",
-    "Mockup3": "mockup/Portrait3Mock.png"
+    "Mockup1": "Portrait1Mock.png",
+    "Mockup2": "Portrait2Mock.png",
+    "Mockup3": "Portrait3Mock.png"
   },
   {
     "Index": 4,
@@ -67,26 +67,9 @@
     "Img1": "MaquetteCitoyen.png",
     "Img2": "FigmaCitoyen.png",
     "Img3": "InstaCitoyen.png",
-    "Mockup1": "mockup/MaquetteCitoyenMock.png",
-    "Mockup2": "mockup/FigmaCitoyenMock.png",
-    "Mockup3": "mockup/InstaCitoyenMock.png"
-  },
-  {
-    "Index": 5,
-    "Title": "CV Video",
-    "Date": "",
-    "Lien1": "",
-    "Lien2": "",
-    "Description": "EN COURS",
-    "Text": "",
-    "Techno": ["Photoshop"],
-    "Context": ["BUT MMI", "2ème année", "solo"],
-    "Create": ["Me !"],
-    "Img1": "",
-    "Img2": "",
-    "Img3": "",
-    "Mockup1": "",
-    "Mockup2": "",
-    "Mockup3": ""
+    "Mockup1": "MaquetteCitoyenMock.png",
+    "Mockup2": "FigmaCitoyenMock.png",
+    "Mockup3": "InstaCitoyenMock.png"
   }
+
 ]
