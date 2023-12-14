@@ -11,16 +11,16 @@ document.addEventListener('DOMContentLoaded', function () {
     // slider 
     const slides = document.querySelector('.slides');
     let translateValue = 0;
-    let slideWidth = 21;
+    let slideWidth = 23.5;
 
       //La largeur de l'écran
       const largeurEcran = window.innerWidth;
 
       //Modifier la valeur de la variable en fonction de la largeur de l'écran
       if (largeurEcran < 600) {
-        slideWidth = 21;
+        slideWidth = 23.5;
       } else {
-        slideWidth = 13;
+        slideWidth = 13.3;
       }
 
     const slideCount = document.querySelectorAll('.slide').length;
