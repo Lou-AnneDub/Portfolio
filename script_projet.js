@@ -35,12 +35,12 @@ document.addEventListener("DOMContentLoaded", function () {
                 .attr('target', '_blank');
 
             if (data[id].Lien2) {
-                // Créer le lien "bonus" seulement s'il existe
+                // Crée le lien "bonus" seulement s'il existe
                 d3.select('#lienBonus')
                     .attr('href', data[id].Lien2)
                     .text('Lien Bonus');
             } else {
-                // S'il n'existe pas, masquer le lien "bonus"
+                // S'il n'existe pas, cache le lien "bonus"
                 d3.select('#lienBonus').style('display', 'none');
             }
 
