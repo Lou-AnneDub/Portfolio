@@ -10,6 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
             navList.classList.toggle('show');
         });
 
+        //Slider
         const slidesContainer = d3.select(".slides");
       
         // afficher les projets depuis le fichier json
@@ -18,17 +19,16 @@ document.addEventListener("DOMContentLoaded", function () {
             // Crée les éléments li pour chaque projet
             const slides = slidesContainer.selectAll('.slide')
               .data(data)
-              .enter()
-              .append('li')
+              .join('li')
               .attr('class', 'slide');
       
             // Ajoute les liens et les images à chaque élément li
             slides.append('a')
               .attr('class', 'image')
-              .attr('href', '' )
+              .attr('href', function (d) { return 'projet.html?id=' + d.Index; } )
               .append('img')
               .attr('src', function (d) { return 'img/mockup/' + d.Mockup1; })
-              .attr('alt', function (d) { return 'Voir la page de ' + d.Title; });
+              .attr('alt', function (d) { return 'Voir la page du projet ' + d.Title; });
     
       
         // Navigation Slider

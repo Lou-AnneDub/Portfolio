@@ -1,6 +1,6 @@
 [
   {
-    "Index": 1,
+    "Index": 0,
     "Title": "Dataviz",
     "Date": "20/09/2023 - 20/11/2023",
     "Lien1": "https://lou-annedub.github.io/DataF1/",
@@ -10,15 +10,13 @@
     "Techno": ["HTML", "CSS", "JavaScript", "Gsap", "GitHub"],
     "Context": ["BUT MMI", "2ème année", "en groupe"],
     "Create": ["Pauline GAZENGEL", "Me !"],
-    "Img1": "MaquetteDataviz.png",
-    "Img2": "MoodDataviz.png",
-    "Img3": "FigmaDataviz.png",
+    "Img": ["MaquetteDataviz.png", "MoodDataviz.jpg", "FigmaDataviz.png"],
     "Mockup1": "MaquetteDatavizMock.png",
     "Mockup2": "MoodDatavizMock.png",
     "Mockup3": "FigmaDatavizMock.png"
   },
   {
-    "Index": 2,
+    "Index": 1,
     "Title": "Refonte UI/UX",
     "Date": "04/23",
     "Lien1": "https://www.figma.com/file/MZ4eLzWOym7wM3EX2rLZOI/Pauline-GAZENGEL-et-Lou-Anne-DUBILLE--%3E-Parc-Ast%C3%A9rix?type=design&node-id=0%3A1&mode=design&t=q7nywblX5ofdt9mG-1",
@@ -28,15 +26,13 @@
     "Techno": ["Figma", "Photoshop"],
     "Context": ["BUT MMI", "1ère année", "en groupe"],
     "Create": ["Pauline GAZENGEL", "Me !"],
-    "Img1": "MaquetteRefonte.png",
-    "Img2": "MoodRefonte.png",
-    "Img3": "FigmaRefonte.png",
+    "Img": ["MaquetteRefonte.png", "MoodRefonte.png", "FigmaRefonte.png"],
     "Mockup1": "MaquetteRefonteMock.png",
     "Mockup2": "MoodRefonteMock.png",
     "Mockup3": "FigmaRefonteMock.png"
   },
   {
-    "Index": 3,
+    "Index": 2,
     "Title": "Portrait Chinois",
     "Date": "22/11/2022 - 12/01/2023",
     "Lien1": "https://lou-annedub.github.io/Portrait-Chinois/",
@@ -46,15 +42,13 @@
     "Techno": ["HTML", "CSS", "JavaScript", "GitHub", "o2switch"],
     "Context": ["BUT MMI", "1ère année", "solo"],
     "Create": ["Me !"],
-    "Img1": "Portrait1.png",
-    "Img2": "Portrait2.png",
-    "Img3": "Portrait3.png",
+    "Img": ["Portrait1.png", "Portrait2.png", "Portrait3.png"],
     "Mockup1": "Portrait1Mock.png",
     "Mockup2": "Portrait2Mock.png",
     "Mockup3": "Portrait3Mock.png"
   },
   {
-    "Index": 4,
+    "Index": 3,
     "Title": "Projet Citoyen",
     "Date": "17/02/2023 - 16/06/2023",
     "Lien1": "https://maraudes.merouane.butmmi.o2switch.site/",
@@ -64,9 +58,7 @@
     "Techno": ["WordPress", "Figma", "Instagram"],
     "Context": ["BUT MMI", "1ère année", "en groupe"],
     "Create": ["Idriss MEROUANE","Pauline GAZENGEL", "Caroline DOUNG", "Me !"],
-    "Img1": "MaquetteCitoyen.png",
-    "Img2": "FigmaCitoyen.png",
-    "Img3": "InstaCitoyen.png",
+    "Img":["MaquetteCitoyen.png", "FigmaCitoyen.png", "InstaCitoyen.png"],
     "Mockup1": "MaquetteCitoyenMock.png",
     "Mockup2": "FigmaCitoyenMock.png",
     "Mockup3": "InstaCitoyenMock.png"

@@ -8,7 +8,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style_nav.css">
     <link rel="stylesheet" href="style_projets.css">
-    <script src="script.js"></script>
+    <script src="./lib/d3.js"></script>
+    <script src="script_projet.js"></script>
     <link rel="icon" type="image/x-icon" href="./img/logo.png">
     <title>Projet - Portfolio de Lou-Anne Dubille</title>
 </head>
@@ -46,23 +47,20 @@
                     <img src="img/icon/icon10.svg" alt="">
                     <h1>Dataviz</h1>
                 </div>
-                <p><i>20/09/2023 - 20/11/2023</i></p>
-                <p id="liens"><a href="">Lien du projet</a><a href="">Lien Bonus</a></p>
-                <p>En première année de BUT, nous avons eu l’occasion durant un cours de découvrir le design UI. Et lors de ce cours, nous avons dû par deux faire une maquette pour la refonte d’un site mais dans un univers opposé. Avec ma coéquipière, nous avons choisi le site du parc Astérix et l’avons transformé en un site plus luxueux.</p>
-                <p>Lorem ipsum dolor sit amet consectetur. Tincidunt massa blandit laoreet id laoreet sit gravida. Tortor non sem blandit in ut. Accumsan sollicitudin tincidunt a eu auctor. Lobortis aliquet congue sit tincidunt ipsum sit facilisis lacus. Ornare morbi nisi nulla vestibulum. In purus mauris aliquam et in sit fermentum. Auctor </p>
+                <p id="date"><i>20/09/2023 - 20/11/2023</i></p>
+                <p id="liens"><a href="" id="lienProjet">Lien du projet</a><a href="" id="lienBonus">Lien Bonus</a></p>
+                <p id="description">En première année de BUT, nous avons eu l’occasion durant un cours de découvrir le design UI. Et lors de ce cours, nous avons dû par deux faire une maquette pour la refonte d’un site mais dans un univers opposé. Avec ma coéquipière, nous avons choisi le site du parc Astérix et l’avons transformé en un site plus luxueux.</p>
+                <p id="explication">Lorem ipsum dolor sit amet consectetur. Tincidunt massa blandit laoreet id laoreet sit gravida. Tortor non sem blandit in ut. Accumsan sollicitudin tincidunt a eu auctor. Lobortis aliquet congue sit tincidunt ipsum sit facilisis lacus. Ornare morbi nisi nulla vestibulum. In purus mauris aliquam et in sit fermentum. Auctor </p>
             </section>
         </section>
         <section class="list">
-            <div>
+            <div id="technologie">
                 <div class="title2">
                     <img src="./img/icon/icon5.svg" alt="">
                     <h2>Technologies utilisées</h2>
                 </div>
                 <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JavaScript</li>
-                    <li>Gsap</li>
+                    
                 </ul>
             </div>
             <div id="context">
@@ -71,19 +69,16 @@
                     <h2>Contexte</h2>
                 </div>
                 <ul>
-                    <li>BUT MMI</li>
-                    <li>2ème année</li>
-                    <li>en groupe</li>
+                    
                 </ul>
             </div>
-            <div>
+            <div id="create">
                 <div class="title2">
                     <img src="./img/icon/icon3.svg" alt="">
                     <h2>Create by</h2>
                 </div>
                 <ul>
-                    <li>Pauline GAZENGEL</li>
-                    <li>Me !</li>
+                    
                 </ul>
             </div>
         </section>
