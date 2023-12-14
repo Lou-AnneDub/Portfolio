@@ -1,6 +1,8 @@
 
 
 document.addEventListener('DOMContentLoaded', function () {
+
+    // Burger menu
     const burgerMenu = document.querySelector('.burger-menu');
     const navList = document.querySelector('nav ul');
 
