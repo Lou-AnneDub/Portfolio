@@ -42,7 +42,8 @@ body {
     background-color: #000000;
     padding: 7px;
     width: 20rem;
-    margin: 5px;
+    margin-top: 5px;
+    margin-bottom: 5%;
 }
 
 .header h2 {
@@ -61,6 +62,8 @@ body {
 .scroll {
     width: 20px;
     margin-bottom: 25px;
+    -webkit-animation: scrollcall 2s;
+            animation: scrollcall 2s 
 }
 
 .iconOrdi {
@@ -295,7 +298,7 @@ main li {
 }
 
 .slide img {
-    width: 77%;
+    width: 73%;
 }
 
 /* Navigation slider */
@@ -361,3 +364,4 @@ main li {
             width: 13%;
         }
     }
+}

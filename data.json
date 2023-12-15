@@ -62,6 +62,23 @@
     "Mockup1": "MaquetteCitoyenMock.png",
     "Mockup2": "FigmaCitoyenMock.png",
     "Mockup3": "InstaCitoyenMock.png"
+  },
+  {
+    "Index": 4,
+    "Title": "CV Video",
+    "Date": "",
+    "Lien1": "",
+    "Lien2": "",
+    "Description": "EN COURS",
+    "Text": "",
+    "Techno": ["Photoshop"],
+    "Context": ["BUT MMI", "2ème année", "solo"],
+    "Create": ["Me !"],
+    "Img1": "",
+    "Img2": "",
+    "Img3": "",
+    "Mockup1": "",
+    "Mockup2": "",
+    "Mockup3": ""
   }
-
 ]

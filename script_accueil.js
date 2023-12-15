@@ -82,24 +82,7 @@ document.addEventListener("DOMContentLoaded", function () {
         setInterval(slide, 5000);
     })
 
+    gsap.to("#presentation", {  duration: 1, opacity: 1, y: 0, ease: "power2.out" });
+
   });
       
-
-      /*{
-    "Index": 5,
-    "Title": "CV Video",
-    "Date": "",
-    "Lien1": "",
-    "Lien2": "",
-    "Description": "EN COURS",
-    "Text": "",
-    "Techno": ["Photoshop"],
-    "Context": ["BUT MMI", "2ème année", "solo"],
-    "Create": ["Me !"],
-    "Img1": "",
-    "Img2": "",
-    "Img3": "",
-    "Mockup1": "",
-    "Mockup2": "",
-    "Mockup3": ""
-  }*/

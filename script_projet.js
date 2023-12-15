@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                 d3.select('.title h1').text(data[id].Title);
 
-                d3.select('#date').text(data[id].Date);
+                d3.select('#date i').text(data[id].Date);
 
                 d3.select('#lienProjet')
                     .attr('href', function (d) { return data[id].Lien1;})
@@ -72,14 +72,14 @@ document.addEventListener("DOMContentLoaded", function () {
                     .attr('alt', "Image de l'accueil en mockup du projet de " + data[id].Title);
                     
             } else {
-                window.location.replace('/404.html');
+                window.location.replace('erreur404.html');
             }
         })
 
         .catch(function (error) {
             console.error('Erreur lors du chargement des données JSON :', error);
             // Redirige l'utilisateur vers la page 404
-            window.location.replace('/404.html');
+            window.location.replace('erreur404.html');
         });
 
 });
