@@ -110,6 +110,12 @@ body {
         }
     }
 
+    @media (min-width: 1600px){
+        #presentation {
+           top: 38%;
+        }
+    }
+
     /* Main */
 main {
     margin: auto;
