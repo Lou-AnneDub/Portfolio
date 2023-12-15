@@ -1,6 +1,12 @@
      
 document.addEventListener("DOMContentLoaded", function () {
 
+  gsap.from("#presentation", {y: 200, duration: 1, opacity: 0,ease: "power2.out"});
+  gsap.from('.iconOrdi', {rotation: 360, duration: 1, opacity: 0,ease: "power2.out"});
+  gsap.to('.scroll', {y: -10, duration:2, repeat:-1, yoyo: true, ease: "elastic",  repeatDelay:0});
+
+// Ajoutez une répétition toutes les 20 secondes
+tl.repeatDelay(20); // Ajoutez un délai entre chaque répétition
 
         // Burger menu
         const burgerMenu = document.querySelector('.burger-menu');
@@ -82,7 +88,7 @@ document.addEventListener("DOMContentLoaded", function () {
         setInterval(slide, 5000);
     })
 
-    gsap.to("#presentation", {  duration: 1, opacity: 1, y: 0, ease: "power2.out" });
+
 
   });
       
