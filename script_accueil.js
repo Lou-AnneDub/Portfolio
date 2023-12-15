@@ -1,12 +1,38 @@
      
 document.addEventListener("DOMContentLoaded", function () {
 
-  gsap.from("#presentation", {y: 200, duration: 1, opacity: 0,ease: "power2.out"});
-  gsap.from('.iconOrdi', {rotation: 360, duration: 1, opacity: 0,ease: "power2.out"});
-  gsap.to('.scroll', {y: -10, duration:2, repeat:-1, yoyo: true, ease: "elastic",  repeatDelay:0});
+  // Animations
+  gsap.from("#presentation", { y: 200, duration: 1, opacity: 0, ease: "power2.out" });
+  gsap.from('.iconOrdi', { rotation: 360, duration: 1, opacity: 0, ease: "power2.out" });
+  gsap.to('.scroll', { y: -10, duration: 2, repeat: -1, yoyo: true, ease: "elastic", repeatDelay: 0 });
+  
+  const scrollTimeline = gsap.timeline();
+  
+  function animateElements() {
+    const elements = document.querySelectorAll(".elementAnime");
+  
+    elements.forEach((element, index) => {
+      scrollTimeline.from(element, {
+        y: 200,
+        duration: 1,
+        autoAlpha: 0,
+        ease: "power2.out",
+        scrollTrigger: {
+          trigger: element,
+          start: "top bottom",
+          end: "top center",
+          once: true,
+        }
+      }).to(element, { autoAlpha: 1 });
+    });
 
-// Ajoutez une répétition toutes les 20 secondes
-tl.repeatDelay(20); // Ajoutez un délai entre chaque répétition
+    window.removeEventListener("scroll", animateElements);
+  }
+  
+  // Attachez la fonction au scroll de la page
+  window.addEventListener("scroll", animateElements);
+  
+
 
         // Burger menu
         const burgerMenu = document.querySelector('.burger-menu');
@@ -87,6 +113,7 @@ tl.repeatDelay(20); // Ajoutez un délai entre chaque répétition
       
         setInterval(slide, 5000);
     })
+
 
 
 
