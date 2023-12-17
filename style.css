@@ -368,5 +368,8 @@ main li {
         .slide {
             width: 13%;
         }
+
+        .slide img {
+            width: 73%;
+        }
     }
-}
