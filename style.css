@@ -282,7 +282,7 @@ main li {
 /* Slider Projets */
 
 .slider {
-    width: 102%;
+    width: 95%;
     overflow: hidden;
     position: relative;
     margin: auto;
@@ -298,7 +298,7 @@ main li {
   
 .slide {
     display: inline-block;
-    width: 23%;
+    width: 20%;
     margin-right: 0;
 }
 
