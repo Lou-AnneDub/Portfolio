@@ -29,7 +29,6 @@ body {
     background-color: #000000;
     color: #ffffff;
     font-family: GothamBook-apple-system, Arial, sans-serif;
-    scroll-behavior: smooth;
 }
 
     /* Nav */ 
@@ -38,6 +37,7 @@ body {
         align-items: center;
         justify-content: flex-end;
         margin-right: 5%;
+        scroll-behavior: smooth;
     }
     
     nav ul {
