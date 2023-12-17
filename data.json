@@ -71,14 +71,12 @@
     "Lien2": "",
     "Description": "EN COURS, le lien ne fonctionne pas encore. <br> En deuxième année de BUT, nous avons dû faire un CV vidéo. Nous avions plusieurs contraintes, notamment de faire un CV vidéo de 2 minutes 30 maximum, avec un certain nombres de plans, de mouvements, de tracking et de transition. De plus, le tout devait ce faire en anglais.",
     "Text": "Avec ce projet, j'ai pu apprendre à écrire un script pour un CV video, mais aussi à faire un story board pour visualiser les plans et le travail à faire. J'ai pu filmer avec un Osmo et mettre en video les idées que j'avais. Ce projet est toujours en cours mais pour le montage je vais utiliser After Effect et Premiere Pro en cas de besoin.",
-    "Techno": ["Photoshop, After Effect, DJI Osmo"],
+    "Techno": ["Photoshop", "After Effect", "DJI Osmo"],
     "Context": ["BUT MMI", "2ème année", "solo"],
     "Create": ["Me !"],
-    "Img1": "",
-    "Img2": "",
-    "Img3": "",
-    "Mockup1": "",
-    "Mockup2": "",
-    "Mockup3": ""
+    "Img":[".png", ".png", ".png"],
+    "Mockup1": ".png",
+    "Mockup2": ".png",
+    "Mockup3": ".png"
   }
 ]
