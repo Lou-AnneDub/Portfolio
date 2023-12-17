@@ -6,6 +6,7 @@ main {
     width: 60%;
     margin: auto;
     margin-bottom: 40px;
+    min-height: 65vh;
 }
 
 h1 {

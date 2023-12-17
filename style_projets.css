@@ -140,5 +140,15 @@ main {
     #context {
         margin-left: 0;
     }
+
+    .title2 {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .title2 h2 {
+        padding: 0;
+    }
 }
 
