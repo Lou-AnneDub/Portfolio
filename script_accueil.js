@@ -19,9 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
         ease: "power2.out",
         scrollTrigger: {
           trigger: element,
-          start: "top bottom",
-          end: "top center",
-          once: true,
+      
         }
       }).to(element, { autoAlpha: 1 });
     });

@@ -101,6 +101,11 @@ main {
     .title {
         top: 135px;
     }
+
+    #return {
+        font-size: 1.3rem;
+        top: 25px;
+    }
 }
 
 @media (min-width: 850px) {

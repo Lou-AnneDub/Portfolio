@@ -29,6 +29,7 @@ body {
     background-color: #000000;
     color: #ffffff;
     font-family: GothamBook-apple-system, Arial, sans-serif;
+    scroll-behavior: smooth;
 }
 
     /* Nav */ 
@@ -143,6 +144,7 @@ footer {
     
 footer a {
     color: #000;
+    text-decoration: none;
 }
     
 footer h2 {
@@ -158,6 +160,7 @@ footer ul {
 .mention {
     margin-top: 25px;
 }   
+
 
     /* Footer affichage écran + grand que 650px */ 
     @media (min-width: 650px) {
