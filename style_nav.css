@@ -18,6 +18,12 @@
     font-style: normal;
 }
 
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     background-color: #000000;
@@ -148,7 +154,11 @@ footer ul {
     margin: 0;
     list-style: none;
 }
-    
+
+.mention {
+    margin-top: 25px;
+}   
+
     /* Footer affichage écran + grand que 650px */ 
     @media (min-width: 650px) {
         footer {

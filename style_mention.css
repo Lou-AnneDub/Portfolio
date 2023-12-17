@@ -1,0 +1,29 @@
+header {
+    border-bottom: 2px solid #FFF;
+}
+
+main {
+    width: 60%;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+h1 {
+    font-family: 'Bagel Fat One', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+h2 {
+    margin-bottom: 5px;
+}
+
+p {
+    margin-top: 5px;
+    margin-left: 30px;
+}
+
+a {
+    color: #FFF;
+}
