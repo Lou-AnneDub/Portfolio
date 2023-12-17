@@ -11,9 +11,8 @@
     "Context": ["BUT MMI", "2ème année", "en groupe"],
     "Create": ["Pauline GAZENGEL", "Me !"],
     "Img": ["MaquetteDataviz.png", "MoodDataviz.jpg", "FigmaDataviz.png"],
-    "Mockup1": "MaquetteDatavizMock.png",
-    "Mockup2": "MoodDatavizMock.png",
-    "Mockup3": "FigmaDatavizMock.png"
+    "Mockup1":"MaquetteDatavizMock.png",
+    "Mockup": ["mockup/MaquetteDatavizMock.png", "mockup/MoodDatavizMock.png", "mockup/FigmaDatavizMock.png"]
   },
   {
     "Index": 1,
@@ -28,8 +27,7 @@
     "Create": ["Pauline GAZENGEL", "Me !"],
     "Img": ["MaquetteRefonte.png", "MoodRefonte.png", "FigmaRefonte.png"],
     "Mockup1": "MaquetteRefonteMock.png",
-    "Mockup2": "MoodRefonteMock.png",
-    "Mockup3": "FigmaRefonteMock.png"
+    "Mockup": ["mockup/MaquetteRefonteMock.png", "mockup/MoodRefonteMock.png", "mockup/FigmaRefonteMock.png"]
   },
   {
     "Index": 2,
@@ -44,8 +42,7 @@
     "Create": ["Me !"],
     "Img": ["Portrait1.png", "Portrait2.png", "Portrait3.png"],
     "Mockup1": "Portrait1Mock.png",
-    "Mockup2": "Portrait2Mock.png",
-    "Mockup3": "Portrait3Mock.png"
+    "Mockup": ["mockup/Portrait1Mock.png", "mockup/Portrait2Mock.png", "mockup/Portrait3Mock.png"]
   },
   {
     "Index": 3,
@@ -60,8 +57,7 @@
     "Create": ["Idriss MEROUANE","Pauline GAZENGEL", "Caroline DOUNG", "Me !"],
     "Img":["MaquetteCitoyen.png", "FigmaCitoyen.png", "InstaCitoyen.png"],
     "Mockup1": "MaquetteCitoyenMock.png",
-    "Mockup2": "FigmaCitoyenMock.png",
-    "Mockup3": "InstaCitoyenMock.png"
+    "Mockup": ["mockup/MaquetteCitoyenMock.png", "mockup/FigmaCitoyenMock.png", "mockup/InstaCitoyenMock.png"]
   },
   {
     "Index": 4,
@@ -76,7 +72,6 @@
     "Create": ["Me !"],
     "Img":["CVvideo.png", "ScriptCV.png", ".png"],
     "Mockup1": "CVvideoMock.png",
-    "Mockup2": "ScriptCVMock.png",
-    "Mockup3": ".png"
+    "Mockup": ["mockup/CVvideoMock.png", "mockup/ScriptCVMock.png", "mockup/.png"]
   }
 ]

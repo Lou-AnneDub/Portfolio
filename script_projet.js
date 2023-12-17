@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     .data(data[id].Img)
                     .join('img')
                     .attr('class','previewImg')
-                    .attr('src', function (d) { return 'img/' + d; })
+                    .attr('src', function (d) { return 'img/' + d ; })
                     .attr('alt', "Voir l'image ");
 
                 d3.select('.title h1').text(data[id].Title);
@@ -74,6 +74,36 @@ document.addEventListener("DOMContentLoaded", function () {
             } else {
                 window.location.replace('erreur404.html');
             }
+
+
+            //Image preview et Mockup
+            var mockupImage = d3.select('.mockup');
+            var previewImages = d3.selectAll('.previewImg');
+
+            previewImages.on('click', function () {
+                var projectId = urlParams.get('id');
+                var clickedImageSrc = d3.select(this).attr('src');
+                console.log('Img clicked:', clickedImageSrc);
+
+                // Récupérez la liste des images de prévisualisation à partir des données JSON
+                var previewSrcs = data[projectId].Img;
+
+                // Récupérez la liste des mockups à partir des données JSON
+                var mockupSrcs = data[projectId].Mockup;
+                console.log('mockupSrcs:', mockupSrcs);
+
+                // Trouvez l'index de la preview cliquée dans la liste des images de prévisualisation
+                var previewIndex = Array.from(this.parentNode.children).indexOf(this);
+                console.log('Preview:', previewIndex);
+
+                // Utilisez cet index pour obtenir la source du mockup correspondant
+                var mockupSrc = mockupSrcs[previewIndex];
+                console.log('mockup:', mockupSrc);
+
+                // Mettez à jour l'attribut src de l'image du mockup avec la source récupérée
+                mockupImage.attr('src', 'img/' + mockupSrc);
+            });
+
         })
 
         .catch(function (error) {
