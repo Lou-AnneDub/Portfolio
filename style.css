@@ -174,13 +174,38 @@ main li {
 
 }
 
+.me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.me img {
+    width: 250px;
+    height: 350px;
+    border-radius: 190px;
+    border: solid 2px #ffffff;
+    margin-top: 50px; 
+}
+
+@media (min-width: 750px) {
+    .me {
+        flex-direction: row;
+        gap: 30px;
+        height: 80vh;
+    }
+
+    .me h2 {
+        text-align: start;
+    }
+}
 
     /* Skills */
 .skills {
     margin: auto;
     margin-top: 50px;
     margin-bottom: 60px;
-
 }
 
 #skillsFlex {
@@ -226,7 +251,7 @@ main li {
     /* Skills affichage écran + grand que 750px */ 
     @media (min-width: 750px) {
         .skills {
-            height: 65vh;
+            height: 60vh;
         }
         .skills h2 {
             text-align: start;
@@ -373,3 +398,5 @@ main li {
             width: 73%;
         }
     }
+
+}

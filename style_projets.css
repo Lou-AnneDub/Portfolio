@@ -19,6 +19,7 @@ main {
     width: -webkit-fit-content;
     width: -moz-fit-content;
     width: fit-content;
+    min-width: none;
     display: flex;
     justify-content: center;
     position: absolute;
