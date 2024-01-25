@@ -72,6 +72,6 @@
     "Create": ["Me !"],
     "Img":["CVvideo.png", "ScriptCV.png", "CVimg.png"],
     "Mockup1": "CVvideoMock.png",
-    "Mockup": ["mockup/CVvideoMock.png", "mockup/ScriptCVMock.png", "mockup/.png"]
+    "Mockup": ["mockup/CVvideoMock.png", "mockup/ScriptCVMock.png", "mockup/CVimgMock.png"]
   }
 ]
