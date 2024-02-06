@@ -135,7 +135,7 @@ main p {
 }
 
 main a {
-    font-family: 'Bagel Fat One', sans-serif !important;
+    font-family: 'Bagel Fat One', sans-serif;
     color: #ffffff;
     text-decoration: none;
     margin-top: 20px;
