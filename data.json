@@ -16,6 +16,21 @@
   },
   {
     "Index": 1,
+    "Title": "Agence d'art - Siny'Art",
+    "Date": "20/01/2024 - 28/03/2024",
+    "Lien1": "https://tamara.sinyart.fr/",
+    "Lien2": "https://expo.sinyart.fr/",
+    "Description": "Lors de ce quatrième semestre de BUT, nous avons dû créer une agence d'art fictive. On a donc dû réaliser un site pour présenter cette agence, un site de billetterie pour une exposition de l'agence, mais aussi une exposition intéractive. Avec mon groupe, nous avons choisi de créer l'agence Siny'Art, une agence d'art qui met en avant les artistes peu connus.",
+    "Text": "Pour ce projet, j'ai pris le rôle de cheffe de projet. J'ai donc dû coordonner l'équipe de créa et l'équipe des développeurs. J'ai pu apprendre à gérer les conflits entre les membres, mais aussi à gérer les problèmes d'organisation. J'ai également été responsable du développement front-end de la billetterie. J'ai donc pu mettre en pratique mes compétences pour la création de ce projet très intéressant.",
+    "Techno": ["HTML", "CSS", "JavaScript", "GitHub", "Figma"],
+    "Context": ["BUT MMI", "2ème année", "en groupe de 6", "Cheffe de groupe"],
+    "Create": ["Nahina BOIREAU", "Idriss MEROUANE", "Thomas BANSRONT", "Robin VIGIER", "Morgan ZARKA", "Me !"],
+    "Img": ["expo1.png", "expo2.png", "expo3.png"],
+    "Mockup1":"expo1Mock.png",
+    "Mockup": ["mockup/expo1Mock.png", "mockup/expo2Mock.png", "mockup/expo3Mock.png"]
+  },
+  {
+    "Index": 2,
     "Title": "Refonte UI/UX",
     "Date": "04/23",
     "Lien1": "https://www.figma.com/file/MZ4eLzWOym7wM3EX2rLZOI/Pauline-GAZENGEL-et-Lou-Anne-DUBILLE--%3E-Parc-Ast%C3%A9rix?type=design&node-id=0%3A1&mode=design&t=q7nywblX5ofdt9mG-1",
@@ -30,7 +45,7 @@
     "Mockup": ["mockup/MaquetteRefonteMock.png", "mockup/MoodRefonteMock.png", "mockup/FigmaRefonteMock.png"]
   },
   {
-    "Index": 2,
+    "Index": 3,
     "Title": "Portrait Chinois",
     "Date": "22/11/2022 - 12/01/2023",
     "Lien1": "https://lou-annedub.github.io/Portrait-Chinois/",
@@ -45,7 +60,7 @@
     "Mockup": ["mockup/Portrait1Mock.png", "mockup/Portrait2Mock.png", "mockup/Portrait3Mock.png"]
   },
   {
-    "Index": 3,
+    "Index": 4,
     "Title": "Projet Citoyen",
     "Date": "17/02/2023 - 16/06/2023",
     "Lien1": "https://maraudes.merouane.butmmi.o2switch.site/",
@@ -60,7 +75,7 @@
     "Mockup": ["mockup/MaquetteCitoyenMock.png", "mockup/FigmaCitoyenMock.png", "mockup/InstaCitoyenMock.png"]
   },
   {
-    "Index": 4,
+    "Index": 5,
     "Title": "CV Video",
     "Date": "19/10/2023 - 24/12/2023",
     "Lien1": "https://youtu.be/FjiUpyptD1c?si=pWd72rQuNmgbnyl4",

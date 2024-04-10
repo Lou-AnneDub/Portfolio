@@ -399,4 +399,13 @@ main li {
         }
     }
 
-}
+
+
+
+    /* -------- Edit --------- */
+    section.edit {
+        width: 65%;
+        margin: auto;
+        height: 10vh;
+        margin-top: 60px;
+    }
