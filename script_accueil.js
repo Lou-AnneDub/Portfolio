@@ -63,14 +63,14 @@ document.addEventListener("DOMContentLoaded", function () {
       
         // Navigation Slider
         let translateValue = 0;
-        let slideWidth = 40; 
+        let slideWidth = 45; 
 
         //La largeur de l'écran
         const largeurEcran = window.innerWidth;
 
         //Modifier la valeur de la variable en fonction de la largeur de l'écran
         if (largeurEcran < 700) {
-            slideWidth = 40;
+            slideWidth = 45;
         } else {
             slideWidth = 13;
         }
