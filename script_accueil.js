@@ -70,7 +70,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         //Modifier la valeur de la variable en fonction de la largeur de l'écran
         if (largeurEcran < 700) {
-            slideWidth = 20;
+            slideWidth = 25;
         } else {
             slideWidth = 13;
         }
