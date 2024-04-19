@@ -317,13 +317,13 @@ main li {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 530vw;
+    width: 500vw;
     transition: transform 0.5s ease-in-out;
 }
   
 .slide {
     display: inline-block;
-    width: 20%;
+    width: 16%;
     margin-right: 0;
 }
 
