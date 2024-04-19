@@ -317,7 +317,7 @@ main li {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 500vw;
+    width: 530vw;
     transition: transform 0.5s ease-in-out;
 }
   
