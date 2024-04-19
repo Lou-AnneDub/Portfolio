@@ -406,6 +406,12 @@ main li {
     section.edit {
         width: 65%;
         margin: auto;
-        height: 10vh;
+        height: 20vh;
         margin-top: 60px;
+    }
+
+    @media (min-width: 750px) {
+        section.edit {
+            height: 10vh;
+        }
     }
