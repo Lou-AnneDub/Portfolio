@@ -6,68 +6,44 @@ body {
     margin: 0;
     background-color: #000000;
     color: #ffffff;
-    font-family: GothamBook-apple-system, Arial, sans-serif;
-}
-
-    /* Header */
-.header {
+    font-family: GothamBook, Arial, sans-serif;
     display: flex;
     flex-direction: column;
-    height:90vh;
-    border-bottom: 2px solid #ffffff;
-    justify-content: center;
     align-items: center;
-    position: relative;
-}
-
-#forme {
-    margin: auto;
-    border: solid 3px #ffffff;
-    border-radius: 190px;
-    width: 227px;
-    height: 367px;
+    justify-content: center;
+    height: 100svh;
 }
 
 #presentation {
-    position: absolute;
-    top: 29%;
-    left: 50%;
-    transform: translateX(-50%);
     display: flex;
     flex-direction: column;
     justify-content: center;
-    text-align: center;
+    align-items: center;
+    width: 50%;
+    margin: auto;
 }
 
-.header h1 {
+h1 {
     font-family: 'Bagel Fat One', sans-serif;
     font-size: 4rem;
-    line-height: 4rem;
-    background-color: #000000;
-    padding: 7px;
-    width: 20rem;
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-
-.header h2 {
-    margin: 0;
-    font-family: GothamBold-apple-system, sans-serif;
-}
-
-.header #dev {
-    margin-bottom: 5px;
-}
-
-.header #crea {
-    margin-top: 7px;
-}
-
-.scroll {
-    width: 20px;
     margin-bottom: 25px;
-    -webkit-animation: scrollcall 2s;
-            animation: scrollcall 2s 
+    margin-top: 0;
+}
+
+h2 {
+    margin: 0;
+    font-family: 'Bagel Fat One', sans-serif;
+    font-size: 2.5rem;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
 }
 
 .iconOrdi {
@@ -76,18 +52,6 @@ body {
 
      /* Header affichage écran + grand que 650px */ 
      @media (min-width: 650px) {
-        .header {
-            border-top: 2px solid #ffffff;
-        }
-
-        #presentation {
-            top: 30%;
-        }
-
-        .header h1 {
-            width: 100%;
-        }
-
         .iconOrdi {
             display: block;
             position: absolute;
@@ -111,307 +75,3 @@ body {
         }
     }
 
-    @media (min-width: 993px){
-        #presentation {
-            top: 35%;
-        }
-    }
-
-    @media (min-width: 1600px){
-        #presentation {
-           top: 38%;
-        }
-    }
-
-    /* Main */
-main {
-    margin: auto;
-    width: 80vw;
-}
-
-main p {
-    margin: 0;
-    margin-bottom: 7px;
-}
-
-main a {
-    font-family: 'Bagel Fat One', sans-serif;
-    color: #ffffff;
-    text-decoration: none;
-    margin-top: 20px;
-    
-}
-
-main h2 {
-    font-family: 'Bagel Fat One', sans-serif;
-    text-align: center;
-}
-
-main h3 {
-    margin-bottom: 7px;
-}
-
-main ul {
-    margin: 5px;
-}
-
-main li {
-    margin-bottom: 5px;
-}
-
-
-@media (min-width: 750px) {
-    main {
-        width: 70vw;
-    }
-
-    main h2 {
-        font-size: 2rem;
-    }
-    section {
-        height: 50vh;
-    }
-
-}
-
-.me {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 50px;
-}
-
-.me img {
-    width: 250px;
-    height: 350px;
-    border-radius: 190px;
-    border: solid 2px #ffffff;
-    margin-top: 50px; 
-}
-
-@media (min-width: 750px) {
-    .me {
-        flex-direction: row;
-        gap: 30px;
-        height: 80vh;
-    }
-
-    .me h2 {
-        text-align: start;
-    }
-}
-
-    /* Skills */
-.skills {
-    margin: auto;
-    margin-top: 50px;
-    margin-bottom: 60px;
-}
-
-#skillsFlex {
-    display: flex;
-    flex-direction: column;
-}
-
-.devSkills, .graphSkills, .audioSkills, .softSkills {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    gap: 5px;
-}
-
-.devSkills img {
-    order: 2;
-    width: 70%;
-    max-width: 210px;
-    min-width: 140px;
-    height: 70%;
-    transform: rotate(-45deg);
-}
-
-.graphSkills img {
-    width: 50%;
-    max-width: 210px;
-    min-width: 130px;
-}
-
-.audioSkills img {
-    order: 2;
-    width: 40%;
-    max-width: 210px;
-    min-width: 120px;
-}
-
-.softSkills img {
-    width: 40%;
-    max-width: 210px;
-    min-width: 120px;
-}
-
-    /* Skills affichage écran + grand que 750px */ 
-    @media (min-width: 750px) {
-        .skills {
-            height: 60vh;
-        }
-        .skills h2 {
-            text-align: start;
-        }
-        
-        #skillsFlex {
-            display: flex;
-            flex-direction: row;
-            gap: 15%;
-        }
-
-        .devSkills img {
-            order: 0;
-            width: 26%;
-        }
-        
-        .graphSkills img {
-            width: 20%;
-        }
-        
-        .audioSkills img {
-            order: 0;
-            width: 20%;
-        }
-        
-        .softSkills img {
-            width: 20%;
-        }
-
-    }
-
-
-    /* Projets */ 
-.projets {
-    margin-bottom: 25px;
-    height: 60vh;
-}
-
-.title2 {
-    display: flex;
-}
-
-.title2 img {
-    width: 75px;
-
-}
-
-.title2 h2 {
-    padding: 10px;
-    margin: 5px;
-}
-
-/* Slider Projets */
-
-.slider {
-    width: 95%;
-    overflow: hidden;
-    position: relative;
-    margin: auto;
-}
-  
-.slides {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 500vw;
-    transition: transform 0.5s ease-in-out;
-}
-  
-.slide {
-    display: inline-block;
-    width: 16%;
-    margin-right: 0;
-}
-
-.slide img {
-    width: 95%;
-}
-
-/* Navigation slider */
-.prev,
-.next {
-    display: inline-block;
-    width: 25px;
-    height: 25px;
-    border-radius: 50%;
-    border: solid 1px black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: none;
-    cursor: pointer;
-}
-  
-.prev {
-    float: left;
-  }
-  
-.next {
-    float: right;
-}
-
-.arrow {
-    width: 8px;
-    height: 8px;
-    border-top: 2px solid black;
-    border-left: 2px solid black;
-    transform: rotate(-45deg);
-    position: relative;
-    left: 2px;
-  }
-  
-  .next .arrow {
-    left: -1px;
-    transform: rotate(135deg);
-  } 
-
-
-.next .sr-only, .prev .sr-only, .scroll-down .sr-only  {
-        position: absolute;
-        left: -10000px;
-        width: 1px;
-        height: 1px;
-        top: auto;
-        overflow: hidden;
-}
-
-
-    /* Slider affichage écran + grand que 750px */ 
-    @media (min-width: 580px) {
-        .projets {
-            height: 90vh;
-        }
-
-        .slider {
-            width: 65%;
-        }
-
-        .slide {
-            width: 13%;
-        }
-
-        .slide img {
-            width: 73%;
-        }
-    }
-
-
-
-
-    /* -------- Edit --------- */
-    section.edit {
-        width: 65%;
-        margin: auto;
-        height: 30vh;
-        margin-top: 60px;
-    }
-
-    @media (min-width: 750px) {
-        section.edit {
-            height: 10vh;
-        }
-    }

@@ -6,7 +6,6 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="style_nav.css">
         <link rel="stylesheet" href="style.css">
         <script src="./lib/d3.js"></script>
         <script src="./lib/gsap.min.js"></script>
@@ -16,147 +15,15 @@
     </head>
 
     <body>
-        <header>
-            
-            <nav>
-                <a href="index.html" id="logo">Lou-Anne Dubille</a>
-                <ul>
-                    <li><a href="#me">Qui suis-je ?</a></li>
-                    <li><a href="#skills">Mes Skills</a></li>
-                    <li><a href="#projets">Mes Projets</a></li>
-                </ul>
-                <div class="burger-menu">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-            </nav>
-            <div class="header">
-                <img class="iconOrdi droite haut" src="./img/icon/icon4.svg" alt="">
-                <img class="iconOrdi gauche haut" src="./img/icon/icon2.svg" alt="">
-                <div id="forme"></div>
-                <div id="presentation">
-                    <h2 id="dev">Développeuse</h2>
-                    <h1>Lou-Anne Dubille</h1>
-                    <h2 id="crea">Créative</h2>
-                </div>
-                <a href="#me"><img class="scroll" src="./img/scroll.png" alt=""></a>
-                <img class="iconOrdi droite bas" src="./img/icon/icon2.svg" alt="">
-                <img class="iconOrdi gauche bas" src="./img/icon/icon4.svg" alt="">
-            </div>
-        </header>
-        <main>
-            <section class="edit">
-                <h2>Ce portfolio est en cours d'évolution ! </h2>
-                <p>Il n'est donc pas tout à fait à jour mais vous trouverez mon tout dernier projet, sur la création d'une agence d'art "Siny'Art" et sa première exposition.</p>
-            </section>
-            <section class="me elementAnime" id="me">
-                <img src="img/me.jpg" alt="">
-                <div>
-                    <h2>Qui suis-je ?</h2>
-                    <p>Je m’appelle Lou-Anne DUBILLE, j’ai 19 ans et j’habite en région parisienne. Je suis en deuxième année de BUT MMI, Métiers du Multimédia et de l’Internet, à l’université Gustave Eiffel, dans le parcours développement web et dispositif interactif. Pour valider ma deuxième année de BUT, je suis à la recherche d’un stage dans le domaine du développement et de l’intégration web, qui pourrait se poursuivre par une alternance lors de ma troisième année. Polyvalente par goût et par nature, j’apprécie particulièrement la diversité de ma formation. Celle-ci me permet aussi bien de faire du développement que du graphisme, ce qui correspond à mes envies et passions.</p>
-                    <a href="CV_Lou-Anne.DUBILLE.pdf" download="CV_Lou-Anne.DUBILLE.pdf">Télécharger mon cv -></a>
-                </div>
-            </section>
-            <section class="skills elementAnime" id="skills">
-                <h2>Mes Skills</h2>
-                <div id="skillsFlex">
-                    <div class="devSkills">
-                        <img src="./img/icon/icon1.svg" alt="">
-                        <div>
-                            <h3>Développement</h3>
-                            <ul>
-                                <li>HTML</li>
-                                <li>CSS</li>
-                                <li>JavaScript</li>
-                                <li>Gsap</li>
-                                <li>PHP</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="graphSkills">
-                        <img src="./img/icon/icon12.svg" alt="">
-                        <div>
-                            <h3>Graphisme</h3>
-                            <ul>
-                                <li>Illustrator</li>
-                                <li>Photshop</li>
-                                <li>InDesign</li>
-                                <li>Lightroom</li>
-                                <li>Figma</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div id="skillsFlex">
-                    <div class="audioSkills">
-                        <img src="./img/icon/icon13.svg" alt="">
-                        <div>
-                            <h3>Audiovisuel</h3>
-                            <ul>
-                                <li>Première Pro</li>
-                                <li>After Effects</li>
-                                <li>Audition</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="softSkills">
-                        <img src="./img/icon/icon11.svg" alt="">
-                        <div>
-                            <h3>Soft Skills</h3>
-                            <ul>
-                                <li>Polyvalente</li>
-                                <li>Autonome</li>
-                                <li>Persévérante</li>
-                                <li>Aime apprendre</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- Attention quand on change la taille de l'écran pendant que le slider fait son animation, il y a un problème d'affichage. Il faut recharger la page -->
-            <section class="projets elementAnime" id="projets">
-                <div class="title2">
-                    <img src="./img/icon/icon8.svg" alt="">
-                    <h2>Mes Projets </h2>
-                </div>
-
-
-                <div class="slider">
-                    <ul class="slides">
-
-                    </ul>
-                    <button class="prev"><span class="arrow"></span><span class="sr-only">Précédent</span></button>
-                    <button class="next"><span class="sr-only">Suivant</span><span class="arrow"></span></button>
-                </div>
-                  
-            </section>
-        </main>
-        <footer>
-            <div class="contact">
-                <h2>Contact</h2>
-                <ul>
-                    <li>dubillelouanne@gmail.com</li>
-                    <li>+33 06 51 23 19 60</li>
-                </ul>
-            </div>
-            <div class="reseaux">
-                <h2>Réseaux</h2>
-                <ul>
-                    <li><a href="https://instagram.com/artiste_des_bas_fonds?igshid=OGQ5ZDc2ODk2ZA==" target="_blank">🔗 Instagram</li>
-                    <li><a href="https://www.linkedin.com/in/lou-anne-dubille-0b4856251/" target="_blank">🔗 LinkedIn</a></li>
-                    <li><a href="https://github.com/Lou-AnneDub" target="_blank">🔗 Github</a></li>
-                </ul>
-            </div>
-            <div class="mention">
-                <ul>
-                    <li><a href="mention.html">Mentions Légales</a></li>
-                    <li><a href="plan.html">Plan du site</a></li>
-                    <li>© 2023 Lou-Anne Dubille</li>
-                </ul>                
-            </div>
-        </footer>
-        
+        <img class="iconOrdi droite haut" src="./img/icon/icon4.svg" alt="">
+        <img class="iconOrdi gauche haut" src="./img/icon/icon2.svg" alt="">
+        <div id="presentation">
+            <h1>Bonjour !</h1>
+            <p>Vous voici sur mon ancien portfolio, il ne contient plus rien. Mais vous pouvez dès à présent naviguer sur mon nouveau portfolio à cette adresse :</p>
+            <h2><a href="https://lou-annedub.fr">lou-annedub.fr</a></h2>
+        </div>
+        <img class="iconOrdi droite bas" src="./img/icon/icon2.svg" alt="">
+        <img class="iconOrdi gauche bas" src="./img/icon/icon4.svg" alt="">
     </body>
 </html>
 
